@@ -90,7 +90,7 @@ curl -s -o bitwarden.sh \
 
 ```
 Invoke-RestMethod -OutFile bitwarden.ps1 `
-    -Uri https://raw.githubusercontent.com/bitwarden/server/master/scripts/bitwarden.ps1
+    -Uri https://raw.githubusercontent.com/letur/server/master/scripts/bitwarden.ps1
 .\bitwarden.ps1 -install
 .\bitwarden.ps1 -start
 ```
